@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{61AAF22B-2E98-3292-ADA7-5E23C95B478F}</Project>
       <Name>Battle-City</Name>
     </ProjectReference>
+    <ProjectReference Include="V:\Repository\Battle-City\build\external\glad\glad.vcxproj">
+      <Project>{5FD15699-A3EE-3D9C-ACEF-5BE0D1E5CDE1}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
     <ProjectReference Include="V:\Repository\Battle-City\build\external\glfw\src\glfw.vcxproj">
       <Project>{2B33F5B8-C038-3EDE-858B-50D8B4331544}</Project>
       <Name>glfw</Name>
